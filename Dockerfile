@@ -9,7 +9,7 @@ RUN chmod 755 /usr/local/bin/docker-entrypoint_.sh
 RUN ln -s /usr/local/bin/docker-entrypoint_.sh /
 
 RUN mv /etc/ssh /etc/ssh_default
-RUN mkdit /etc/ssh
+RUN mkdir /etc/ssh
 
 VOLUME /etc/ssh
 
