@@ -1,4 +1,4 @@
-FROM postgres:9.5
+FROM postgres:12
 
 #Basic Tools
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y nano less openssh-server rsync && apt-get clean
